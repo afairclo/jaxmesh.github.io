@@ -31,3 +31,4 @@ __\#MeshMonday:__ Meetups on the first Monday of every month at 7PM
 💬 Want your content featured? Submit a PR to their GitHub project!
 
 🛠️ JAXMesh.com is proudly operated by [CommsForAll.com](https://commsforall.com/){:target="_blank"}
+.
