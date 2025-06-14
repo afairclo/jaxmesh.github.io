@@ -7,13 +7,15 @@ theme:
   features:
     - navigation.tabs
   palette:
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
       accent: yellow
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: black
       accent: amber
       toggle:
