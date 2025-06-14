@@ -3,7 +3,7 @@ name: Update docs from awesome-meshtastic
 on:
   push:
     branches:
-	  - main
+	  - master
 
 jobs:
   build:
