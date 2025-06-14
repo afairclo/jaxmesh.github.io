@@ -1,0 +1,28 @@
+site_name: JAXMesh
+
+theme:
+  name: material
+  logo: images/jaxmeshlogo.png
+  favicon: images/jaxmeshlogo.png
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: slate
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+markdown_extensions:
+  - attr_list
+  - meta
+
+plugins:
+  - social
