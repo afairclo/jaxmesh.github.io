@@ -11,7 +11,7 @@ hide:
 For software tools developed specifically for meshtastic but probably require running for yourself or your local mesh. Typically hosted on a server. You probably don't need to know how to run it, to use it.
 
 - [Meshview by pablorevilla](https://github.com/pablorevilla-meshtastic/meshview) - A project watches a MQTT topic for meshtastic messages, imports them to a database and has a web UI to view them. [Example on BayMesh](https://meshview.bayme.sh/)
-- [Meshinfo by kevinelliott](https://github.com/kevinelliott/meshinfo) - A project written in Python and connects to an MQTT server that is receiving Meshtastic messages for the purpose of visualizing and inspecting traffic. [Example on SacValleyMesh](https://svm.meshinfo.network/mqtt_log.html)
+- [Meshinfo by kevinelliott](https://github.com/kevinelliott/meshinfo) - A project written in Python and connects to an MQTT server that is receiving Meshtastic messages for the purpose of visualizing and inspecting traffic. [Example on Central Valley Mesh](https://meshinfo.cvme.sh/)
 - [bayme.sh-bot by ppicazo](https://github.com/ppicazo/bayme.sh-bot) - An MQTT to Discord logger bot for local meshes.
 - [meshtastic-ha-entity-builder](https://github.com/pdxlocations/meshtastic-ha-entity-builder) - Builds entities from stored nodes using the [Meshtastic Home Assistant Integration](https://meshtastic.org/docs/software/integrations/mqtt/home-assistant/)
 - [meshtastic-new-node-processing by StevoKeano](https://github.com/StevoKeano/meshtastic-new-node-processing/) - Created by the AustinMesh team to welcome new users to the public mesh and direct them to help/resources.
@@ -20,3 +20,4 @@ For software tools developed specifically for meshtastic but probably require ru
 - [Meshtastic-Matrix-Relay](https://github.com/geoffwhittington/meshtastic-matrix-relay) - Meshtastic to Matrix Relay
 - [Meshmonitor](https://meshmonitor.org/) - A powerful web application for monitoring Meshtastic nodes over IP with real-time updates, interactive maps, and comprehensive network analytics.
 - [MeshSight](https://ranfty.github.io/meshsight/) - Terrain-aware RF coverage planner for mapping predicted LoRa signal reach before deploying nodes.
+- [MeshSat](https://github.com/meshsat/meshsat) - Bridges a Meshtastic mesh out to the wider world when there is no internet: Iridium satellite (RockBLOCK 9603 SBD and 9704 IMT), cellular SMS, APRS/AX.25, TAK (CoT XML), MQTT and webhooks, with rule-based routing, a delivery queue and a built-in web dashboard. Runs as a Docker container on a Raspberry Pi.
